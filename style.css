@@ -1,0 +1,50 @@
+
+        body{
+            background-image:url("image.png");
+        }
+        .menu-button
+        {
+            background-color:white;
+            color:black;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 1000;
+            padding:20px 60px;
+            font-size:25px;
+            cursor:pointer;
+            border-radius:20px;
+        }
+        .right
+        {
+            position:relative;
+            display:inline-block;
+        }
+        .dropdown-menu
+        {
+            display:none;
+            position:absolute;
+            background-color:grey;
+            border-radius:20px;
+            z-index:1;
+            font-size:25px;
+        }
+        .dropdown-menu a{
+            color:black;
+            padding:10px 120px;
+            text-decoration:none;
+            display:block;
+        }
+        .dropdown-menu a:hover{
+            background-color:red;
+            color:lightgreen;
+        }
+        .right:hover .dropdown-menu{
+            display:block;
+        }
+        .right:hover .menu-button{
+            background-color:lawngreen;
+        }
+
+
+
+
+

@@ -1,0 +1,17 @@
+body{
+    background-image:url("login.jpg");
+}
+.card-header
+{
+    background:aqua;
+}
+.card-body
+{
+    background:aquamarine;
+}
+.heading
+{
+    color:white;
+    font-size:25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
